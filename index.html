@@ -61,8 +61,12 @@
     <div class="hero-overlay"></div>
     <div class="hero-content">
       <h1>
-        “Empowering thousands of students<br>
-        towards success.”
+          <p>
+          <a href="https://discord.pravinmishra.com/" target="_blank" rel="noopener noreferrer"
+            style="color: #ffffff; text-decoration: underline;">
+            Join DMI Cohort 3 on Discord and start your DevOps journey
+          </a>
+        </p>
       </h1>
     </div>
 
@@ -602,7 +606,21 @@
       <div class="footer-bottom">
         <p>© <span id="year"></span> Pravin Mishra. All rights reserved.</p>
         <p>Crafted with <span>cloud</span> excellence by Pravin Mishra</p>
+
+        <p>Pravin Mishra Portfolio v2.0 — Deployed on <span id="deployDate">04-Feb-2026</span> — By <span style="font-style: 20px;">Daniel Inyang</span></p>
       </div>
+
+
+<script>
+  const today = new Date();
+
+  // Format: February 5, 2026
+  const options = { year: 'numeric', month: 'long', day: 'numeric' };
+  const formattedDate = today.toLocaleDateString('en-US', options);
+
+  document.getElementById("deployDate").textContent = formattedDate;
+</script>
+
 
     </div>
   </footer>
